@@ -77,3 +77,10 @@ body{
 #buttons-div button:hover{
     transform: scale(1.05);
 }
+
+@media (max-width: 480px) {
+    #Calculator{
+        width: 95%;
+        margin: 10px auto;
+    }
+}
