@@ -1,0 +1,79 @@
+body{
+    font-family: "Outfit", sans-serif;
+}
+
+.alert-box{
+    position: fixed;
+    margin-top: 10px;
+    z-index: 1000;
+    margin: 0;
+    width: fit-content;
+    justify-self: center;
+    display: none;
+}
+
+#sibling-div{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+
+#Calculator{
+    background: black;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+#Calculator h2{
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 10px;
+}
+
+#input-div{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+#input-div input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #555555;
+    background: black;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+
+#input-div input:target{
+    border: 1px solid #555555;
+}
+
+#buttons-div{
+    display: grid;
+    grid-template-rows: repeat(4,70px);
+    grid-template-columns: repeat(4,70px);
+    gap: 10px;
+    margin: 10px;
+}
+
+#buttons-div button{
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0f0f0f, #2d2d2d, #555555);
+    color: white;
+    border: none;
+    box-shadow: 0 0 1.5px 1.5px white;
+    font-size: 25px;
+}
+
+#buttons-div button:hover{
+    transform: scale(1.05);
+}
