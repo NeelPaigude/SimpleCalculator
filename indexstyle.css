@@ -92,5 +92,13 @@ body{
         margin: 10px;
     }
 
-    
+    #buttons-div button{
+        border-radius: 50%;
+        background: linear-gradient(135deg, #0f0f0f, #2d2d2d, #555555);
+        color: white;
+        border: none;
+        box-shadow: 0 0 1.5px 1.5px white;
+        font-size: 20px;
+    }
+
 }
